@@ -1,0 +1,72 @@
+html{
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* Définir la couleur de fond avec une transparence de 0.9 (90%) */
+    background-color: rgba(81, 63, 21, 0.9);
+    /* Définir une hauteur minimale pour la démo */
+    min-height: 100vh;
+    /* Positionnement relatif pour le contenu du body */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* La propriété background-image définit l'image de fond */
+    background-image: url('labyrinth.jpg');
+    /* La propriété background-size définit la taille de l'image de fond */
+    background-size: cover;
+    /* La propriété background-position définit la position de l'image de fond */
+    background-position: center;
+    /* La propriété background-repeat définit la répétition de l'image de fond */
+    background-repeat: no-repeat;
+    /* Définir l'opacité de l'image de fond */
+    opacity: 0.8; /* Par exemple, 0.5 pour 50% d'opacité */
+}
+
+.filtre {
+    /* Ajoutez d'autres styles pour le contenu si nécessaire */
+    position: relative;
+    z-index: 1; /* Assurez-vous que le contenu apparaît au-dessus de l'image de fond */
+}
+
+.regles{
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    padding: 20px;
+    color:rgb(158, 14, 64);
+}
+
+p{
+    font-weight: bold;
+    max-width: 1000px;
+}
+
+.btn-custom {
+    display: block;
+    margin: auto;
+}
+
+.text-custom-color{
+    color:rgb(158, 14, 64);
+    text-align: center;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.title-color{
+    color:rgb(158, 14, 64);
+}
