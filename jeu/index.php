@@ -20,5 +20,7 @@ Flight::route('/jeu', function () {
   Flight::render('jeu');
 });
 
+
+
 Flight::start();
 ?>
