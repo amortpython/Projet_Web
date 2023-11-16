@@ -23,7 +23,7 @@ body::before {
     bottom: 0;
     left: 0;
     /* La propriété background-image définit l'image de fond */
-    background-image: url('../images/labyrinth.jpg');
+    background-image: url('images/labyrinth.jpg');
     /* La propriété background-size définit la taille de l'image de fond */
     background-size: cover;
     /* La propriété background-position définit la position de l'image de fond */
